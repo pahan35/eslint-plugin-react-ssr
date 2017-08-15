@@ -67,8 +67,8 @@ ESLint-plugin-React-SSR is licensed under the [MIT License](http://www.opensourc
 [deps-url]: https://david-dm.org/ytanruengsri/eslint-plugin-react
 [deps-image]: https://img.shields.io/david/dev/ytanruengsri/eslint-plugin-react.svg
 
-[coverage-url]: https://coveralls.io/r/ytanruengsri/eslint-plugin-react?branch=master
-[coverage-image]: https://img.shields.io/coveralls/ytanruengsri/eslint-plugin-react/master.svg
+[coverage-url]: https://coveralls.io/r/ytanruengsri/eslint-plugin-react-ssr?branch=master
+[coverage-image]: https://img.shields.io/coveralls/ytanruengsri/eslint-plugin-react-ssr/master.svg
 
 [climate-url]: https://codeclimate.com/github/ytanruengsri/eslint-plugin-react-ssr
 [climate-image]: https://img.shields.io/codeclimate/github/ytanruengsri/eslint-plugin-react-ssr.svg
