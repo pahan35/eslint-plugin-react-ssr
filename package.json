@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-react-ssr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Yuthasak Tanruengsri <yuthasak.tanruengsri@gmail.com>",
   "description": "React SSR specific linting rules for ESLint",
   "main": "index.js",
