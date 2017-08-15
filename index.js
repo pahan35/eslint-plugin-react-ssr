@@ -37,20 +37,9 @@ module.exports = {
   deprecatedRules: deprecatedRules,
   rules: allRules,
   configs: {
-    recommended: {
-      plugins: [
-        'react'
-      ],
-      parserOptions: {
-        ecmaFeatures: {
-          jsx: true
-        }
-      },
-      rules: {}
-    },
     all: {
       plugins: [
-        'react'
+        'react-ssr'
       ],
       parserOptions: {
         ecmaFeatures: {
