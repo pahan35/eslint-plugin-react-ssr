@@ -56,4 +56,4 @@ This pairs well with the `eslint:all` rule.
 
 # License
 
-ESLint-plugin-React is licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
+ESLint-plugin-React-SSR is licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
