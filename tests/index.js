@@ -36,24 +36,6 @@ describe('deprecated rules', () => {
 });
 
 describe('configurations', () => {
-  it('should export a \'recommended\' configuration', () => {
-    assert(plugin.configs.recommended);
-    Object.keys(plugin.configs.recommended.rules).forEach(configName => {
-      assert.equal(configName.indexOf('react/'), 0);
-      const ruleName = configName.substring('react/'.length);
-      assert(plugin.rules[ruleName]);
-    });
-
-    ruleFiles.forEach(ruleName => {
-      const inRecommendedConfig = Boolean(plugin.configs.recommended.rules[`react/${ruleName}`]);
-      const isRecommended = plugin.rules[ruleName].meta.docs.recommended;
-      if (inRecommendedConfig) {
-        assert(isRecommended, `${ruleName} metadata should mark it as recommended`);
-      } else {
-        assert(!isRecommended, `${ruleName} metadata should not mark it as recommended`);
-      }
-    });
-  });
   it('should export a \'all\' configuration', () => {
     assert(plugin.configs.all);
     Object.keys(plugin.configs.all.rules).forEach(configName => {
