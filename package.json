@@ -1,8 +1,8 @@
 {
-  "name": "eslint-plugin-react",
-  "version": "7.2.1",
-  "author": "Yannick Croissant <yannick.croissant+npm@gmail.com>",
-  "description": "React specific linting rules for ESLint",
+  "name": "eslint-plugin-react-ssr",
+  "version": "1.0.0",
+  "author": "Yuthasak Tanruengsri <yuthasak.tanruengsri@gmail.com>",
+  "description": "React SSR specific linting rules for ESLint",
   "main": "index.js",
   "scripts": {
     "coveralls": "cat ./reports/coverage/lcov.info | coveralls",
@@ -19,10 +19,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/yannickcr/eslint-plugin-react"
+    "url": "https://github.com/ytanruengsri/eslint-plugin-react-ssr"
   },
-  "homepage": "https://github.com/yannickcr/eslint-plugin-react",
-  "bugs": "https://github.com/yannickcr/eslint-plugin-react/issues",
+  "homepage": "https://github.com/ytanruengsri/eslint-plugin-react-ssr",
+  "bugs": "https://github.com/ytanruengsri/eslint-plugin-react-ssr/issues",
   "dependencies": {
     "doctrine": "^2.0.0",
     "has": "^1.0.1",
