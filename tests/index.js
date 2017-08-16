@@ -39,12 +39,12 @@ describe('configurations', () => {
   it('should export a \'all\' configuration', () => {
     assert(plugin.configs.all);
     Object.keys(plugin.configs.all.rules).forEach(configName => {
-      assert.equal(configName.indexOf('react/'), 0);
+      assert.equal(configName.indexOf('react-ssr/'), 0);
       assert.equal(plugin.configs.all.rules[configName], 2);
     });
     ruleFiles.forEach(ruleName => {
       const inDeprecatedRules = Boolean(plugin.deprecatedRules[ruleName]);
-      const inAllConfig = Boolean(plugin.configs.all.rules[`react/${ruleName}`]);
+      const inAllConfig = Boolean(plugin.configs.all.rules[`react-ssr/${ruleName}`]);
       assert(inDeprecatedRules ^ inAllConfig);
     });
   });
